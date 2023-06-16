@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(84, 122, 155);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#imgUrl,
+#topTextInput,
+#bottomTextInput {
+    height: 35px;
+    width: 500px;
+    border: 2px solid;
+}
+
+#addMeme {
+    border: 2px solid;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+#container {
+    position: relative;
+    margin: 10px;
+}
+
+#memeImg {
+    position: relative;
+    margin: 30px auto;
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
+
+#meme {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+#topText {
+    position: absolute;
+    top: 25px;
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bottomText {
+    position: absolute;
+    font-size: 40px;
+    bottom: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#deleteBtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
